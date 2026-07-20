@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h2>Interview<br>Preparation Portal</h2>
+
+        <ul>
+            <li><a href="dashboard.html">🏠 Dashboard</a></li>
+            <li><a href="upload.html">📤 Upload Resume</a></li>
+            <li><a href="questions.html">📄 Interview Questions</a></li>
+            <li><a href="progress.html">📈 Progress Tracker</a></li>
+            <li><a href="login.html">🚪 Logout</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <h1>Your Progress</h1>
+
+        <div class="progress-card">
+
+            <h3>Java Interview Progress</h3>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="overallProgress"></div>
+            </div>
+
+            <p id="overallText">0 of 10 Completed</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="progress.js"></script>
+
+</body>
+</html>

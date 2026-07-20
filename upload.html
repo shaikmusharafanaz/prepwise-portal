@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepWise Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+
+        <!-- SIDEBAR -->
+
+        <div class="sidebar">
+
+            <h2>Interview  Preparation Portal</h2>
+
+            <ul>
+
+    <li>
+        <a href="#">
+            <i class="fa-solid fa-house"></i>
+            Dashboard
+        </a>
+    </li>
+
+    <li>
+        <a href="upload.html">
+            <i class="fa-solid fa-upload"></i>
+            Upload Resume
+        </a>
+    </li>
+
+    <li>
+        <a href="#">
+            <i class="fa-solid fa-file-lines"></i>
+            Interview Questions
+        </a>
+    </li>
+
+    <li>
+        <a href="#">
+            <i class="fa-solid fa-chart-line"></i>
+            Progress Tracker
+        </a>
+    </li>
+
+    <li>
+        <a href="#" id="logoutBtn">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            Logout
+        </a>
+    </li>
+
+</ul>
+
+        </div>
+
+
+        <!-- MAIN CONTENT -->
+
+        <div class="main-content">
+
+            <div class="top-bar">
+                <div class="upload-card">
+
+    <h2>📄 Upload Resume</h2>
+
+    <p class="upload-text">
+        Upload your latest resume in PDF format.
+    </p>
+
+    <input
+        type="file"
+        id="resumeFile"
+        accept=".pdf">
+
+    <button id="uploadBtn">
+        Upload Resume
+    </button>
+
+    <p id="message"></p>
+
+    <p id="fileName"></p>
+
+</div>
+                
+
+                <div class="logo-section">
+
+    <img src="images/logo.png.png" alt="Logo">
+
+    
+</div>
+
+<p class="slogan">
+    Your Smart Interview Preparation Companion
+</p>
+                <div class="profile" id="topProfile">
+                    Hello
+                </div>
+
+            </div>
+
+
+            
+
+            
+
+        <!-- RIGHT SIDEBAR -->
+
+<div class="profile-section">
+
+    <i class="fa-solid fa-circle-user profile-icon"></i>
+
+    <h3 id="profileName"> </h3>
+
+    <p id="profileEmail"></p>
+
+    <hr>
+
+</div>
+
+</div>
+    </div>
+
+    <script src="dashboard.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
+
